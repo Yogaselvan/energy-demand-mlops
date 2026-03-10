@@ -1,0 +1,43 @@
+# ── Python ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environments ────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── OS & Editor Artifacts ───────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── MLflow — exclude UI artifacts, keep model artifacts ─────
+mlruns/.trash/
+
+# ── Temporary & Test Files ──────────────────────────────────
+*.log
+*.tmp
+tmp/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Jupyter Notebooks ───────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Git ─────────────────────────────────────────────────────
+.git/
+.gitignore

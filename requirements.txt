@@ -1,0 +1,24 @@
+# ============================================================
+# MLOps Pipeline — Daily Energy Grid Demand Prediction
+# Requirements File
+# ============================================================
+
+# --- Core Data & ML ---
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.4.2
+
+# --- Experiment Tracking & Model Registry ---
+mlflow==2.13.0
+
+# --- API Serving ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# --- Data Drift Monitoring ---
+evidently==0.4.30
+
+# --- Utilities ---
+python-dotenv==1.0.1
+
